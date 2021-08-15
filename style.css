@@ -1,0 +1,150 @@
+body {
+    background-color: SteelBlue;
+    opacity: 1.5;
+}
+svg {
+    cursor: default;
+    background-color: AntiqueWhite;
+}
+#svg4 {
+    background-color: SteelBlue;
+}
+
+h1 {
+    font-size: 70px;
+    color: white;
+    font-family: Snell Roundhand, cursive;
+    -webkit-text-stroke: 2px black;
+}
+h2 {
+    font-size: 20px;
+    font-family: Snell Roundhand, cursive;
+}
+
+#main2 {
+    bottom: 50px;
+}
+
+#positionDiv {
+    position: absolute;
+    left: 10%;
+    width: 1400px;
+    height: 1200px;
+}
+
+#Cselector {
+    margin: 20px 120px;
+}
+
+#pTitle {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Snell Roundhand, cursive;
+}
+#pSelector {
+    margin: 5px;
+    font-size: 16px;
+    font-family: Times, Times New Roman, serif;
+}
+#H3 {
+    margin: 5px;
+    font-weight: 100;
+    font-size: 16px;
+    font-family: Times, Times New Roman, serif;
+}
+
+#H4 {
+    margin: 5px;
+    font-weight: 100;
+    font-size: 16px;
+    font-family: Times, Times New Roman, serif;
+}
+#pBar {
+    margin: 10px 120px;
+    font-size: 16px;
+    font-family: Times, Times New Roman, serif;
+}
+
+#buttonDiv {
+    margin: 5px;
+}
+
+.xlabel1 {
+    font-size: 15px;
+    font-family: Times, Times New Roman, serif;
+}
+.ylabel1 {
+    font-size: 15px;
+    font-family: Times, Times New Roman, serif;
+}
+.xlabel2 {
+    font-size: 15px;
+    font-family: Times, Times New Roman, serif;
+}
+.ylabel2 {
+    font-size: 15px;
+    font-family: Times, Times New Roman, serif;
+}
+.cTitle1 {
+    font-family: Snell Roundhand, cursive;
+}
+.cTitle2 {
+    font-family: Snell Roundhand, cursive;
+}
+
+.bar.xlabel {
+    font-size: 15px;
+    font-family: Times, Times New Roman, serif;
+}
+.bar.ylabel {
+    font-size: 15px;
+    font-family: Times, Times New Roman, serif;
+}
+
+.bText {
+    font-weight: bold;
+    font-size: 10px;
+}
+
+text.nametext1 {
+    display: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    text-anchor: middle;
+    vertical-align: top;
+    z-index: 100;
+}
+
+text.nametext2 {
+    display: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    text-anchor: middle;
+    vertical-align: top;
+    z-index: 100;
+}
+
+g:hover text {
+    display: block;
+}
+
+g:hover circle {
+    fill-opacity: 1;
+}
+
+.infoText {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.infoValue {
+    font-size: 15px;
+    font-family: Copperplate, cursive;
+}
+
+.bar.ylabel.title {
+    font-size: 10px;
+}

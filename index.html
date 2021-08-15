@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset='UTF-8'>
+    <title>CS4460 D3 Final Project - All Together</title>
+    <link rel='stylesheet' href='./style.css'>
+</head>
+    <link rel='shortcut icon' href="#">
+<body>
+    <div id='bodyDiv' align='center'>
+        <h1 align='center'>Colleges in United States</h1>
+        <h2 align='center'>↓ Interested to go to college? Check out the important information below ↓</h2>
+        <h3 id='H3' align='center'>Plot 1: </h3>
+        <h4 id='H4' align='center'>Plot 2: </h4>
+        <div id='buttonDiv'>
+            <input name="originalButton" 
+                type="button" 
+                value="See original plots" 
+                onclick="originalData()" />
+            <input name="highlightedButton" 
+                type="button" 
+                value="See highlighted plots" 
+                onclick="highlightedData()" />
+        </div>
+        <div id='main' align='center'>
+            <svg id='svg0' width='550' height='450' style='border: 1px solid black;'>
+            </svg>
+            <svg id='svg1' width='550' height='450' style='border: 1px solid black;'>
+            </svg>
+        </div>
+
+
+        <div id='main1' align='center'>
+            <p id='pTitle'>College Information - default is my school. Go Jackets!
+                <svg id='svgImage' width='80' height='80'>
+            </p>
+
+            <p id='pSelector'>
+                Select a college you would like to know better:
+            </p>
+        </div>
+
+        <div id='main2' align='center'>
+            <svg id='svg2' width='550' height='450' style='border: 1px solid black;'></svg>
+            <svg id='svg3' width='550' height='450' style='border: 1px solid black;'>
+                <svg id='infoImage' width='300' height='300'>
+            </svg>
+        </div>
+    </div>
+    <div align='center'>
+        <svg id='svg4' width='50' height='50'></svg>
+    </div>
+</body>
+<script src='https://d3js.org/d3.v5.min.js'></script>
+<script src='./main.js'></script>
+</html>
